@@ -2,8 +2,7 @@
   <v-app>
   
 
-    <v-main class="teal accent-3
-">
+    <v-main class="teal accent-3">
       <Input/>
     </v-main>
   </v-app>
@@ -17,6 +16,7 @@ export default {
 
   components: {
     Input,
+    
   },
 
   data: () => ({
