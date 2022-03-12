@@ -39,6 +39,9 @@ export default {
 
   methods: {
     addTask(newTask) {
+      if( this.task.length === 0 ) {
+        return
+      }
 
       this.$store.dispatch("addTaskAction", newTask);
 
